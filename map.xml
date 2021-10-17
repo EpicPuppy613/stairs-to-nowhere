@@ -183,7 +183,7 @@
 	  <post id="center-top">0,102,0</post>
 	  <post id="center-bottom">0,62,0</post>
 	  <post id="center-south">0,87,30</post>
-	  <flags owner="red" pickup-filter="blue-only" points-rate="1" yaw="-90">
+      <flags owner="red" pickup-filter="blue-only" points-rate="1" yaw="-90">
 	    <post id="red-north">-40,87,-10</post>
 	    <post id="red-top">-40,92,0</post>
 	    <post id="red-bottom">-40,82,0</post>
@@ -196,13 +196,13 @@
 	    <post id="blue-south">40,87,10</post>
 	  </flags>
 	</flags>
-	<flags owner="blue" capture-filter="blue-only">
+	<flags owner="blue" capture-filter="blue-only" sticky="false">
 	  <net id="net-blue-north" capture-filter="flag-blue-north" post="blue-north"><region><cuboid min="39,87,-11" max="41,89,-9"/></region></net>
 	  <net id="net-blue-top" capture-filter="flag-blue-top" post="blue-top"><region><cuboid min="39,92,-1" max="41,94,1"/></region></net>
 	  <net id="net-blue-bottom" capture-filter="flag-blue-bottom" post="blue-bottom"><region><cuboid min="39,82,-1" max="41,84,1"/></region></net>
 	  <net id="net-blue-south" capture-filter="flag-blue-south" post="blue-south"><region><cuboid min="39,87,9" max="41,89,11"/></region></net>
 	</flags>
-	<flags owner="red" capture-filter="red-only">
+	<flags owner="red" capture-filter="red-only" sticky="false">
 	  <net id="net-red-north" capture-filter="flag-red-north" post="red-north"><region><cuboid min="-41,87,-11" max="-39,89,-9"/></region></net>
 	  <net id="net-red-top" capture-filter="flag-red-top" post="red-top"><region><cuboid min="-41,92,-1" max="-39,94,1"/></region></net>
 	  <net id="net-red-bottom" capture-filter="flag-red-bottom" post="red-bottom"><region><cuboid min="-41,82,-1" max="-39,84,1"/></region></net>
