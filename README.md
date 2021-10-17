@@ -1,5 +1,5 @@
 # Stairs to Nowhere
-Stairs to Nowhere is a Minecraft map made for [PGM][https://pgm.dev/]
+Stairs to Nowhere is a Minecraft map made for [PGM](https://pgm.dev/)
 
 The mechanics of the map are a little unique from standard gamemodes.
 
