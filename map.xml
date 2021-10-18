@@ -17,6 +17,9 @@
     <team id="red" color="dark red" max="30" max-overfill="40">Red</team>
     <team id="blue" color="blue" max="30" max-overfill="40">Blue</team>
 </teams>
+<hunger>
+    <depletion>off</depletion>
+</hunger>
 <kits>
     <kit id="spawn" force="true">
         <item slot="0" material="diamond sword"><enchantment level="1">sharpness</enchantment></item>
@@ -25,7 +28,6 @@
         <item slot="4" amount="3" material="arrow"/>
         <effect duration="5" amplifier="5">resistance</effect>
 		<foodlevel>20</foodlevel>
-		<saturation>9001</saturation>
     </kit>
     <kit id="kit-red" parents="spawn">
         <helmet material="leather helmet" color="993333"/>
